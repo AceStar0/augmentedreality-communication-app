@@ -1,14 +1,14 @@
 # augmentedreality-communication-app
 
-# Unity AR Application 
+## Unity AR Application 
 - Using Mediapipe library 
 - Sphere and lines animation 
 
 
-# Blender Application 
+## Blender Application 
 - Using BlendARMocap to animate a rig body
 
-# Face and Body Reconstruction 
+## Face and Body Reconstruction 
 
 
 
