@@ -1,0 +1,4 @@
+#Thu Nov 17 23:14:24 CET 2022
+base.0=D\:\\Ahmed\\ING5\\PFE\\AR Motion Capture\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

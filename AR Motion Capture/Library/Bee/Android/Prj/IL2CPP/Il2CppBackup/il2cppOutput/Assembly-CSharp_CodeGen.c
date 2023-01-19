@@ -1,0 +1,460 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Aim::.ctor()
+extern void Aim__ctor_m2B70C89D2BB8CF4B2D181EE48F200260F397BCA1 (void);
+// 0x00000002 System.Void Aim::Start()
+extern void Aim_Start_m770C151B1FA7FF8FBA9F35ABB12CBD7FEAC1676D (void);
+// 0x00000003 System.Void Aim::Update()
+extern void Aim_Update_m34E5C289372E6EA64D5532017FEA746BFEBEEE58 (void);
+// 0x00000004 System.Void Aim::ListenEvents(System.Threading.CancellationToken)
+extern void Aim_ListenEvents_m4FE8F337B0B55E6B66C40611781335A3BB091EFC (void);
+// 0x00000005 System.Void Aim::AcceptCallback(System.IAsyncResult)
+extern void Aim_AcceptCallback_m88DF76F8D3E57603DD9D5FEDB4DD029BCEEA6D2A (void);
+// 0x00000006 System.Void Aim::ReadCallback(System.IAsyncResult)
+extern void Aim_ReadCallback_m4B2596C8B382656F9FD48FD364A83F8D5FD25542 (void);
+// 0x00000007 System.Void Aim::SetCoordinates(System.String)
+extern void Aim_SetCoordinates_m7E4577A8BECFCDE03C6FB336E4618826AC9043AA (void);
+// 0x00000008 System.Void Aim::OnDestroy()
+extern void Aim_OnDestroy_mA34571EE50A37E899A944E008DDFDD23874423DD (void);
+// 0x00000009 System.Void Aim::.cctor()
+extern void Aim__cctor_mFCCAE86C6DA6FB29E7C130162D562DA859B4997D (void);
+// 0x0000000A System.Void Aim::<Start>b__16_0()
+extern void Aim_U3CStartU3Eb__16_0_mC9E87E9E0FF4B082E19268D877962D5F5C230F4E (void);
+// 0x0000000B System.Void Aim/StateObject::.ctor()
+extern void StateObject__ctor_m4DD233182DAC922A7F6F65294A5C4D9F0C926215 (void);
+// 0x0000000C System.Void Aim/<Start>d__16::MoveNext()
+extern void U3CStartU3Ed__16_MoveNext_m5F2B516EDFED136181630957FB8F6F9D95017A26 (void);
+// 0x0000000D System.Void Aim/<Start>d__16::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartU3Ed__16_SetStateMachine_m97E54CA6FD83CC09F5909598F265B929F22E6CF5 (void);
+// 0x0000000E System.Void Aim/<>c::.cctor()
+extern void U3CU3Ec__cctor_m899F95FF36A8BC8B9D5A4C1E8316D7B4B409D9EE (void);
+// 0x0000000F System.Void Aim/<>c::.ctor()
+extern void U3CU3Ec__ctor_mE3530E692FA1277540C2EE960EC834C7067E0390 (void);
+// 0x00000010 System.Boolean Aim/<>c::<ListenEvents>b__18_0(System.Net.IPAddress)
+extern void U3CU3Ec_U3CListenEventsU3Eb__18_0_m66830C8725B6B5E004D9FD2C8841B504F89D7ECC (void);
+// 0x00000011 System.Void AnimationCode::.ctor()
+extern void AnimationCode__ctor_m72A62F7F28AE3D390E3F3295905881474D5D9DBF (void);
+// 0x00000012 System.Void AnimationCode::Start()
+extern void AnimationCode_Start_m18BE2DC32E792256F41AA76876CDFEC5A3E8EAD8 (void);
+// 0x00000013 System.Void AnimationCode::Update()
+extern void AnimationCode_Update_m974A9C48F4234AFE702F50F239BD33213CF83FA9 (void);
+// 0x00000014 System.Void AnimationCode::ListenEvents(System.Threading.CancellationToken)
+extern void AnimationCode_ListenEvents_m44BDC6FCCA2AEE5DC654D4D87C6D066F1A76CF37 (void);
+// 0x00000015 System.Void AnimationCode::AcceptCallback(System.IAsyncResult)
+extern void AnimationCode_AcceptCallback_mB74B25C9A87927303A8676AE14AD3BDEE3D180AD (void);
+// 0x00000016 System.Void AnimationCode::ReadCallback(System.IAsyncResult)
+extern void AnimationCode_ReadCallback_m99DB011CB5A85CF64AFF00009AB17CF4A8972D13 (void);
+// 0x00000017 System.Void AnimationCode::SetColors(System.String)
+extern void AnimationCode_SetColors_mA34DC426E2303B46CCE6C4D62026F9961AD4983E (void);
+// 0x00000018 System.Void AnimationCode::OnDestroy()
+extern void AnimationCode_OnDestroy_mEDB6FCB58ED1033393DDF7226DE56DFD629D79D2 (void);
+// 0x00000019 System.Void AnimationCode::.cctor()
+extern void AnimationCode__cctor_m128215733B05F21516EF173C188FCDBF679E6D6D (void);
+// 0x0000001A System.Void AnimationCode::<Start>b__12_0()
+extern void AnimationCode_U3CStartU3Eb__12_0_m04E2FB2DD93D8ED6F7CB7BF3CE78248AF79CA9ED (void);
+// 0x0000001B System.Void AnimationCode/StateObject::.ctor()
+extern void StateObject__ctor_m814CE742DBC4C2CF3E9665EFD2A2E43ECD32ACAF (void);
+// 0x0000001C System.Void AnimationCode/<Start>d__12::MoveNext()
+extern void U3CStartU3Ed__12_MoveNext_mB97D166CFCD184C4DB697FC216DE85D11907EE8F (void);
+// 0x0000001D System.Void AnimationCode/<Start>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartU3Ed__12_SetStateMachine_mCC92D569D266A6AE88B9B4457CF93F5B2D9630E8 (void);
+// 0x0000001E System.Void AnimationCode/<>c::.cctor()
+extern void U3CU3Ec__cctor_m2CFAAE9C200661945AA5513B5F48C87A831C9AF3 (void);
+// 0x0000001F System.Void AnimationCode/<>c::.ctor()
+extern void U3CU3Ec__ctor_mA050D959C06320944230E7BAACEDDEF4B67F9FBB (void);
+// 0x00000020 System.Boolean AnimationCode/<>c::<ListenEvents>b__14_0(System.Net.IPAddress)
+extern void U3CU3Ec_U3CListenEventsU3Eb__14_0_mB69A8A035C9B8F7D74C8C419367F4284EE1F81D4 (void);
+// 0x00000021 System.Void AnimationFaceCode::.ctor()
+extern void AnimationFaceCode__ctor_m449BD588FE2347A53D9FFCF9F9086402A1E4699D (void);
+// 0x00000022 System.Void AnimationFaceCode::Start()
+extern void AnimationFaceCode_Start_m60296A50741C4648F4151A5D24FE4D11D68DE606 (void);
+// 0x00000023 System.Void AnimationFaceCode::Update()
+extern void AnimationFaceCode_Update_m9C9F167785DF970A6486216554AE32CCFA8ADAD0 (void);
+// 0x00000024 System.Void AnimationFaceCode::ListenEvents(System.Threading.CancellationToken)
+extern void AnimationFaceCode_ListenEvents_m70F19D0FD5F36EBBDBBCF31030B8CB690923F341 (void);
+// 0x00000025 System.Void AnimationFaceCode::AcceptCallback(System.IAsyncResult)
+extern void AnimationFaceCode_AcceptCallback_m36C004063DD4BF511F40D4FB4CC47910A770E179 (void);
+// 0x00000026 System.Void AnimationFaceCode::ReadCallback(System.IAsyncResult)
+extern void AnimationFaceCode_ReadCallback_m46888AEB9E6FAF88740D9BAB36BECFBBDED39840 (void);
+// 0x00000027 System.Void AnimationFaceCode::SetColors(System.String)
+extern void AnimationFaceCode_SetColors_mB46EDCFF79F1093B6C39B7AE7FD91A13988B1077 (void);
+// 0x00000028 System.Void AnimationFaceCode::OnDestroy()
+extern void AnimationFaceCode_OnDestroy_m141434B2E80DD739B46C8DFE5CEB12502ED980C4 (void);
+// 0x00000029 System.Void AnimationFaceCode::.cctor()
+extern void AnimationFaceCode__cctor_m8136DE8483A2A0D564ABE30FF99B0E4CBD8B6BFF (void);
+// 0x0000002A System.Void AnimationFaceCode::<Start>b__12_0()
+extern void AnimationFaceCode_U3CStartU3Eb__12_0_m4A73DD7EA8245D7B164E1077CFF98A54FBC064CD (void);
+// 0x0000002B System.Void AnimationFaceCode/StateObject::.ctor()
+extern void StateObject__ctor_m3A8F4C13BA36916FFFE5F1A2193EAF88329DFE53 (void);
+// 0x0000002C System.Void AnimationFaceCode/<Start>d__12::MoveNext()
+extern void U3CStartU3Ed__12_MoveNext_mC23BC93A8604FD6ACF3659470813FB6ED625D3CE (void);
+// 0x0000002D System.Void AnimationFaceCode/<Start>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartU3Ed__12_SetStateMachine_m4A5263664BBCB6E67A1F38B0EAE2A86E8ED2486C (void);
+// 0x0000002E System.Void AnimationFaceCode/<>c::.cctor()
+extern void U3CU3Ec__cctor_m0348E4BE98EF8A33C90CED8932D18C69E968BFB9 (void);
+// 0x0000002F System.Void AnimationFaceCode/<>c::.ctor()
+extern void U3CU3Ec__ctor_mC0B61C2BAADE35E62EBBDB7F6BD2A90C101B0BE9 (void);
+// 0x00000030 System.Boolean AnimationFaceCode/<>c::<ListenEvents>b__14_0(System.Net.IPAddress)
+extern void U3CU3Ec_U3CListenEventsU3Eb__14_0_mCAE8074C8D03F6B29244895531C9009F1C69840A (void);
+// 0x00000031 System.Void AnimationHandCode::.ctor()
+extern void AnimationHandCode__ctor_m849883F17B29D6EAB61FFA822907EDE6F1C5676A (void);
+// 0x00000032 System.Void AnimationHandCode::Start()
+extern void AnimationHandCode_Start_mAB0765EBD72F8A26B95AA7C68BDE3A4B1B7A526A (void);
+// 0x00000033 System.Void AnimationHandCode::Update()
+extern void AnimationHandCode_Update_mA92C457AEC42D071D26C33B30107DDAC8461BAA9 (void);
+// 0x00000034 System.Void AnimationHandCode::ListenEvents(System.Threading.CancellationToken)
+extern void AnimationHandCode_ListenEvents_m43BE5ABDBE9E25321814FA8C3C7A088A6F13AD9A (void);
+// 0x00000035 System.Void AnimationHandCode::AcceptCallback(System.IAsyncResult)
+extern void AnimationHandCode_AcceptCallback_m400C669455968461A8CE981D304C113BDFEB6B6B (void);
+// 0x00000036 System.Void AnimationHandCode::ReadCallback(System.IAsyncResult)
+extern void AnimationHandCode_ReadCallback_mC55B599B0056077B824EBDB8E100F442E7436F2C (void);
+// 0x00000037 System.Void AnimationHandCode::SetColors(System.String)
+extern void AnimationHandCode_SetColors_mFFEFEFEA0D74B751CF50D2CA7B22F4D2C631E556 (void);
+// 0x00000038 System.Void AnimationHandCode::OnDestroy()
+extern void AnimationHandCode_OnDestroy_m2F05E0B24B1E62E35C77F9F744C9E21CF76E3C4A (void);
+// 0x00000039 System.Void AnimationHandCode::.cctor()
+extern void AnimationHandCode__cctor_mE30E74C1194A79727DD251D9029FC79463466D91 (void);
+// 0x0000003A System.Void AnimationHandCode::<Start>b__12_0()
+extern void AnimationHandCode_U3CStartU3Eb__12_0_m2DA85DBBC375C127B03005CB9B70163770405AD2 (void);
+// 0x0000003B System.Void AnimationHandCode/StateObject::.ctor()
+extern void StateObject__ctor_m7CBB8663AB127B05C5968F1A5A26F01C33E3F677 (void);
+// 0x0000003C System.Void AnimationHandCode/<Start>d__12::MoveNext()
+extern void U3CStartU3Ed__12_MoveNext_mFDCE9E59D8637FBC9F7EADE9C3BA47B3EA9F364F (void);
+// 0x0000003D System.Void AnimationHandCode/<Start>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartU3Ed__12_SetStateMachine_mB4BF9FF52CE590C4EC24300372CD9E6A520B0976 (void);
+// 0x0000003E System.Void AnimationHandCode/<>c::.cctor()
+extern void U3CU3Ec__cctor_m039A0B67C0122299E332965B866AD250FE8F8C3D (void);
+// 0x0000003F System.Void AnimationHandCode/<>c::.ctor()
+extern void U3CU3Ec__ctor_m715BEC293F94A8A64D9CC18DDBA64C143EF3915D (void);
+// 0x00000040 System.Boolean AnimationHandCode/<>c::<ListenEvents>b__14_0(System.Net.IPAddress)
+extern void U3CU3Ec_U3CListenEventsU3Eb__14_0_mF2BC8F56C420D7A077D0F7FABC74D015FA445F2F (void);
+// 0x00000041 System.Void BodyCode::Start()
+extern void BodyCode_Start_m9041DE7C60DE4ED3B1763DC59F8A00AA67F70984 (void);
+// 0x00000042 System.Void BodyCode::Update()
+extern void BodyCode_Update_m3A95BC330EFA728A337C5A54916CDA02EDF6D82D (void);
+// 0x00000043 System.Void BodyCode::.ctor()
+extern void BodyCode__ctor_m2AE9DB3BB23D7A78B304EED222E2751C120DF58B (void);
+// 0x00000044 System.Void LineCode::Start()
+extern void LineCode_Start_m4F03E3AD7E2693D193BD8902CA526EF7304817FA (void);
+// 0x00000045 System.Void LineCode::Update()
+extern void LineCode_Update_m96CC516F1C9D842EE257FA1BC8AD46B06B620574 (void);
+// 0x00000046 System.Void LineCode::.ctor()
+extern void LineCode__ctor_m00D02C3C64E2B9B116253D95BA860CE086D86F7B (void);
+// 0x00000047 System.Void RigBone::.ctor(UnityEngine.GameObject,UnityEngine.HumanBodyBones)
+extern void RigBone__ctor_m664475D9BAB6D2CA6208181B2912CEF0FE28FB85 (void);
+// 0x00000048 System.Void RigBone::set(System.Single,System.Single,System.Single,System.Single)
+extern void RigBone_set_m4DB9DF5E6BD2370A1F38C6A6F4DB60FCADF27F8C (void);
+// 0x00000049 UnityEngine.Vector3 RigBone::get()
+extern void RigBone_get_m3438AEF4C9A8E9F7604CFE930FDCFD93EBC96B19 (void);
+// 0x0000004A System.Void RigBone::setPos(System.Single,System.Single,System.Single)
+extern void RigBone_setPos_m5D4868AD08E2F75A5F8B9B69F3D505A5040B07F0 (void);
+// 0x0000004B System.Void RigBone::set(UnityEngine.Quaternion)
+extern void RigBone_set_mA08C1722F29D6B3AD2BB2298963EBD2645CDC7F4 (void);
+// 0x0000004C System.Void RigBone::mul(System.Single,System.Single,System.Single,System.Single)
+extern void RigBone_mul_m2D214F1DC731FF75269198EF79D8487CFA74D4EA (void);
+// 0x0000004D System.Void RigBone::mul(UnityEngine.Quaternion)
+extern void RigBone_mul_m062800EAE2FAF8F598C071A4998531E74F7C1EC7 (void);
+// 0x0000004E System.Void RigBone::offset(System.Single,System.Single,System.Single,System.Single)
+extern void RigBone_offset_m138E0A4228C36DD82E62488D533793090D93E067 (void);
+// 0x0000004F System.Void RigBone::offset(UnityEngine.Quaternion)
+extern void RigBone_offset_m90E1DE72C814BCE539C799C2E7429F45FD513EB5 (void);
+// 0x00000050 System.Void RigBone::changeBone(UnityEngine.HumanBodyBones)
+extern void RigBone_changeBone_m8C4BA8C5DBB32AD34B008504CA174DEFA2D4040C (void);
+// 0x00000051 System.Void RigControl::Start()
+extern void RigControl_Start_m7E49F7DBCEEC0C66E1D9C2474ECAD57DFFF4326F (void);
+// 0x00000052 System.Void RigControl::Update()
+extern void RigControl_Update_m99CE6B664224588AA8E25E9567E3545CB9AAA9C3 (void);
+// 0x00000053 System.Void RigControl::.ctor()
+extern void RigControl__ctor_m9F594F13C28F67D51522115B2EA6889E2B86C51C (void);
+// 0x00000054 System.Void RigControl1::.ctor()
+extern void RigControl1__ctor_m82ECD54E9FC4A481746CB1CDEDEF43AB7708DA04 (void);
+// 0x00000055 System.Void RigControl1::Start()
+extern void RigControl1_Start_mE90CB3B3DEA0FF20682CA5365813265FFD203AB8 (void);
+// 0x00000056 System.Void RigControl1::Update()
+extern void RigControl1_Update_m78B5ADE3FE4BDD82C188884C0E0938F706A1E9E2 (void);
+// 0x00000057 System.Void RigControl1::ListenEvents(System.Threading.CancellationToken)
+extern void RigControl1_ListenEvents_m6210520C580EB4CF3FCB43155F1B80BE2652F13F (void);
+// 0x00000058 System.Void RigControl1::AcceptCallback(System.IAsyncResult)
+extern void RigControl1_AcceptCallback_m86DCA0E86FCA043E482EF995BA1D3116483A73CA (void);
+// 0x00000059 System.Void RigControl1::ReadCallback(System.IAsyncResult)
+extern void RigControl1_ReadCallback_mF05C58C4FFBF57780898A50CC8853A52FEBA137E (void);
+// 0x0000005A System.Void RigControl1::SetCoordinates(System.String)
+extern void RigControl1_SetCoordinates_m10C208F94A2D4DB61839517BA4CE05048417386F (void);
+// 0x0000005B System.Void RigControl1::OnDestroy()
+extern void RigControl1_OnDestroy_m8F0110330D80B5DE8C762ECA56F10E3B05C09B50 (void);
+// 0x0000005C System.Void RigControl1::.cctor()
+extern void RigControl1__cctor_m201BBA639F42363E7ED993ED133249F7AC72C950 (void);
+// 0x0000005D System.Void RigControl1::<Start>b__28_0()
+extern void RigControl1_U3CStartU3Eb__28_0_m7AC50DAB92A32A1584CC3DE2EBFB6588DFBBB2E4 (void);
+// 0x0000005E System.Void RigControl1/StateObject::.ctor()
+extern void StateObject__ctor_mD8D12334CA9D693138642EC90761C6DEE35AD6EB (void);
+// 0x0000005F System.Void RigControl1/<Start>d__28::MoveNext()
+extern void U3CStartU3Ed__28_MoveNext_m83C6991FD9F59EF65CF760D9D34DD3DD09AF3DCC (void);
+// 0x00000060 System.Void RigControl1/<Start>d__28::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartU3Ed__28_SetStateMachine_m9C108B8BED369C71729AD9BB8C7F116A60E7604A (void);
+// 0x00000061 System.Void RigControl1/<>c::.cctor()
+extern void U3CU3Ec__cctor_m4519A78BE865273CCE00DF2E1FAC5F5BBCCCBE36 (void);
+// 0x00000062 System.Void RigControl1/<>c::.ctor()
+extern void U3CU3Ec__ctor_mDC7F2D9933C02D00B90F470AEBFB991CA6CC1E5C (void);
+// 0x00000063 System.Boolean RigControl1/<>c::<ListenEvents>b__30_0(System.Net.IPAddress)
+extern void U3CU3Ec_U3CListenEventsU3Eb__30_0_m0B79E0A7115C28D97128034D5E8969DC3DE71661 (void);
+static Il2CppMethodPointer s_methodPointers[99] = 
+{
+	Aim__ctor_m2B70C89D2BB8CF4B2D181EE48F200260F397BCA1,
+	Aim_Start_m770C151B1FA7FF8FBA9F35ABB12CBD7FEAC1676D,
+	Aim_Update_m34E5C289372E6EA64D5532017FEA746BFEBEEE58,
+	Aim_ListenEvents_m4FE8F337B0B55E6B66C40611781335A3BB091EFC,
+	Aim_AcceptCallback_m88DF76F8D3E57603DD9D5FEDB4DD029BCEEA6D2A,
+	Aim_ReadCallback_m4B2596C8B382656F9FD48FD364A83F8D5FD25542,
+	Aim_SetCoordinates_m7E4577A8BECFCDE03C6FB336E4618826AC9043AA,
+	Aim_OnDestroy_mA34571EE50A37E899A944E008DDFDD23874423DD,
+	Aim__cctor_mFCCAE86C6DA6FB29E7C130162D562DA859B4997D,
+	Aim_U3CStartU3Eb__16_0_mC9E87E9E0FF4B082E19268D877962D5F5C230F4E,
+	StateObject__ctor_m4DD233182DAC922A7F6F65294A5C4D9F0C926215,
+	U3CStartU3Ed__16_MoveNext_m5F2B516EDFED136181630957FB8F6F9D95017A26,
+	U3CStartU3Ed__16_SetStateMachine_m97E54CA6FD83CC09F5909598F265B929F22E6CF5,
+	U3CU3Ec__cctor_m899F95FF36A8BC8B9D5A4C1E8316D7B4B409D9EE,
+	U3CU3Ec__ctor_mE3530E692FA1277540C2EE960EC834C7067E0390,
+	U3CU3Ec_U3CListenEventsU3Eb__18_0_m66830C8725B6B5E004D9FD2C8841B504F89D7ECC,
+	AnimationCode__ctor_m72A62F7F28AE3D390E3F3295905881474D5D9DBF,
+	AnimationCode_Start_m18BE2DC32E792256F41AA76876CDFEC5A3E8EAD8,
+	AnimationCode_Update_m974A9C48F4234AFE702F50F239BD33213CF83FA9,
+	AnimationCode_ListenEvents_m44BDC6FCCA2AEE5DC654D4D87C6D066F1A76CF37,
+	AnimationCode_AcceptCallback_mB74B25C9A87927303A8676AE14AD3BDEE3D180AD,
+	AnimationCode_ReadCallback_m99DB011CB5A85CF64AFF00009AB17CF4A8972D13,
+	AnimationCode_SetColors_mA34DC426E2303B46CCE6C4D62026F9961AD4983E,
+	AnimationCode_OnDestroy_mEDB6FCB58ED1033393DDF7226DE56DFD629D79D2,
+	AnimationCode__cctor_m128215733B05F21516EF173C188FCDBF679E6D6D,
+	AnimationCode_U3CStartU3Eb__12_0_m04E2FB2DD93D8ED6F7CB7BF3CE78248AF79CA9ED,
+	StateObject__ctor_m814CE742DBC4C2CF3E9665EFD2A2E43ECD32ACAF,
+	U3CStartU3Ed__12_MoveNext_mB97D166CFCD184C4DB697FC216DE85D11907EE8F,
+	U3CStartU3Ed__12_SetStateMachine_mCC92D569D266A6AE88B9B4457CF93F5B2D9630E8,
+	U3CU3Ec__cctor_m2CFAAE9C200661945AA5513B5F48C87A831C9AF3,
+	U3CU3Ec__ctor_mA050D959C06320944230E7BAACEDDEF4B67F9FBB,
+	U3CU3Ec_U3CListenEventsU3Eb__14_0_mB69A8A035C9B8F7D74C8C419367F4284EE1F81D4,
+	AnimationFaceCode__ctor_m449BD588FE2347A53D9FFCF9F9086402A1E4699D,
+	AnimationFaceCode_Start_m60296A50741C4648F4151A5D24FE4D11D68DE606,
+	AnimationFaceCode_Update_m9C9F167785DF970A6486216554AE32CCFA8ADAD0,
+	AnimationFaceCode_ListenEvents_m70F19D0FD5F36EBBDBBCF31030B8CB690923F341,
+	AnimationFaceCode_AcceptCallback_m36C004063DD4BF511F40D4FB4CC47910A770E179,
+	AnimationFaceCode_ReadCallback_m46888AEB9E6FAF88740D9BAB36BECFBBDED39840,
+	AnimationFaceCode_SetColors_mB46EDCFF79F1093B6C39B7AE7FD91A13988B1077,
+	AnimationFaceCode_OnDestroy_m141434B2E80DD739B46C8DFE5CEB12502ED980C4,
+	AnimationFaceCode__cctor_m8136DE8483A2A0D564ABE30FF99B0E4CBD8B6BFF,
+	AnimationFaceCode_U3CStartU3Eb__12_0_m4A73DD7EA8245D7B164E1077CFF98A54FBC064CD,
+	StateObject__ctor_m3A8F4C13BA36916FFFE5F1A2193EAF88329DFE53,
+	U3CStartU3Ed__12_MoveNext_mC23BC93A8604FD6ACF3659470813FB6ED625D3CE,
+	U3CStartU3Ed__12_SetStateMachine_m4A5263664BBCB6E67A1F38B0EAE2A86E8ED2486C,
+	U3CU3Ec__cctor_m0348E4BE98EF8A33C90CED8932D18C69E968BFB9,
+	U3CU3Ec__ctor_mC0B61C2BAADE35E62EBBDB7F6BD2A90C101B0BE9,
+	U3CU3Ec_U3CListenEventsU3Eb__14_0_mCAE8074C8D03F6B29244895531C9009F1C69840A,
+	AnimationHandCode__ctor_m849883F17B29D6EAB61FFA822907EDE6F1C5676A,
+	AnimationHandCode_Start_mAB0765EBD72F8A26B95AA7C68BDE3A4B1B7A526A,
+	AnimationHandCode_Update_mA92C457AEC42D071D26C33B30107DDAC8461BAA9,
+	AnimationHandCode_ListenEvents_m43BE5ABDBE9E25321814FA8C3C7A088A6F13AD9A,
+	AnimationHandCode_AcceptCallback_m400C669455968461A8CE981D304C113BDFEB6B6B,
+	AnimationHandCode_ReadCallback_mC55B599B0056077B824EBDB8E100F442E7436F2C,
+	AnimationHandCode_SetColors_mFFEFEFEA0D74B751CF50D2CA7B22F4D2C631E556,
+	AnimationHandCode_OnDestroy_m2F05E0B24B1E62E35C77F9F744C9E21CF76E3C4A,
+	AnimationHandCode__cctor_mE30E74C1194A79727DD251D9029FC79463466D91,
+	AnimationHandCode_U3CStartU3Eb__12_0_m2DA85DBBC375C127B03005CB9B70163770405AD2,
+	StateObject__ctor_m7CBB8663AB127B05C5968F1A5A26F01C33E3F677,
+	U3CStartU3Ed__12_MoveNext_mFDCE9E59D8637FBC9F7EADE9C3BA47B3EA9F364F,
+	U3CStartU3Ed__12_SetStateMachine_mB4BF9FF52CE590C4EC24300372CD9E6A520B0976,
+	U3CU3Ec__cctor_m039A0B67C0122299E332965B866AD250FE8F8C3D,
+	U3CU3Ec__ctor_m715BEC293F94A8A64D9CC18DDBA64C143EF3915D,
+	U3CU3Ec_U3CListenEventsU3Eb__14_0_mF2BC8F56C420D7A077D0F7FABC74D015FA445F2F,
+	BodyCode_Start_m9041DE7C60DE4ED3B1763DC59F8A00AA67F70984,
+	BodyCode_Update_m3A95BC330EFA728A337C5A54916CDA02EDF6D82D,
+	BodyCode__ctor_m2AE9DB3BB23D7A78B304EED222E2751C120DF58B,
+	LineCode_Start_m4F03E3AD7E2693D193BD8902CA526EF7304817FA,
+	LineCode_Update_m96CC516F1C9D842EE257FA1BC8AD46B06B620574,
+	LineCode__ctor_m00D02C3C64E2B9B116253D95BA860CE086D86F7B,
+	RigBone__ctor_m664475D9BAB6D2CA6208181B2912CEF0FE28FB85,
+	RigBone_set_m4DB9DF5E6BD2370A1F38C6A6F4DB60FCADF27F8C,
+	RigBone_get_m3438AEF4C9A8E9F7604CFE930FDCFD93EBC96B19,
+	RigBone_setPos_m5D4868AD08E2F75A5F8B9B69F3D505A5040B07F0,
+	RigBone_set_mA08C1722F29D6B3AD2BB2298963EBD2645CDC7F4,
+	RigBone_mul_m2D214F1DC731FF75269198EF79D8487CFA74D4EA,
+	RigBone_mul_m062800EAE2FAF8F598C071A4998531E74F7C1EC7,
+	RigBone_offset_m138E0A4228C36DD82E62488D533793090D93E067,
+	RigBone_offset_m90E1DE72C814BCE539C799C2E7429F45FD513EB5,
+	RigBone_changeBone_m8C4BA8C5DBB32AD34B008504CA174DEFA2D4040C,
+	RigControl_Start_m7E49F7DBCEEC0C66E1D9C2474ECAD57DFFF4326F,
+	RigControl_Update_m99CE6B664224588AA8E25E9567E3545CB9AAA9C3,
+	RigControl__ctor_m9F594F13C28F67D51522115B2EA6889E2B86C51C,
+	RigControl1__ctor_m82ECD54E9FC4A481746CB1CDEDEF43AB7708DA04,
+	RigControl1_Start_mE90CB3B3DEA0FF20682CA5365813265FFD203AB8,
+	RigControl1_Update_m78B5ADE3FE4BDD82C188884C0E0938F706A1E9E2,
+	RigControl1_ListenEvents_m6210520C580EB4CF3FCB43155F1B80BE2652F13F,
+	RigControl1_AcceptCallback_m86DCA0E86FCA043E482EF995BA1D3116483A73CA,
+	RigControl1_ReadCallback_mF05C58C4FFBF57780898A50CC8853A52FEBA137E,
+	RigControl1_SetCoordinates_m10C208F94A2D4DB61839517BA4CE05048417386F,
+	RigControl1_OnDestroy_m8F0110330D80B5DE8C762ECA56F10E3B05C09B50,
+	RigControl1__cctor_m201BBA639F42363E7ED993ED133249F7AC72C950,
+	RigControl1_U3CStartU3Eb__28_0_m7AC50DAB92A32A1584CC3DE2EBFB6588DFBBB2E4,
+	StateObject__ctor_mD8D12334CA9D693138642EC90761C6DEE35AD6EB,
+	U3CStartU3Ed__28_MoveNext_m83C6991FD9F59EF65CF760D9D34DD3DD09AF3DCC,
+	U3CStartU3Ed__28_SetStateMachine_m9C108B8BED369C71729AD9BB8C7F116A60E7604A,
+	U3CU3Ec__cctor_m4519A78BE865273CCE00DF2E1FAC5F5BBCCCBE36,
+	U3CU3Ec__ctor_mDC7F2D9933C02D00B90F470AEBFB991CA6CC1E5C,
+	U3CU3Ec_U3CListenEventsU3Eb__30_0_m0B79E0A7115C28D97128034D5E8969DC3DE71661,
+};
+extern void U3CStartU3Ed__16_MoveNext_m5F2B516EDFED136181630957FB8F6F9D95017A26_AdjustorThunk (void);
+extern void U3CStartU3Ed__16_SetStateMachine_m97E54CA6FD83CC09F5909598F265B929F22E6CF5_AdjustorThunk (void);
+extern void U3CStartU3Ed__12_MoveNext_mB97D166CFCD184C4DB697FC216DE85D11907EE8F_AdjustorThunk (void);
+extern void U3CStartU3Ed__12_SetStateMachine_mCC92D569D266A6AE88B9B4457CF93F5B2D9630E8_AdjustorThunk (void);
+extern void U3CStartU3Ed__12_MoveNext_mC23BC93A8604FD6ACF3659470813FB6ED625D3CE_AdjustorThunk (void);
+extern void U3CStartU3Ed__12_SetStateMachine_m4A5263664BBCB6E67A1F38B0EAE2A86E8ED2486C_AdjustorThunk (void);
+extern void U3CStartU3Ed__12_MoveNext_mFDCE9E59D8637FBC9F7EADE9C3BA47B3EA9F364F_AdjustorThunk (void);
+extern void U3CStartU3Ed__12_SetStateMachine_mB4BF9FF52CE590C4EC24300372CD9E6A520B0976_AdjustorThunk (void);
+extern void U3CStartU3Ed__28_MoveNext_m83C6991FD9F59EF65CF760D9D34DD3DD09AF3DCC_AdjustorThunk (void);
+extern void U3CStartU3Ed__28_SetStateMachine_m9C108B8BED369C71729AD9BB8C7F116A60E7604A_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[10] = 
+{
+	{ 0x0600000C, U3CStartU3Ed__16_MoveNext_m5F2B516EDFED136181630957FB8F6F9D95017A26_AdjustorThunk },
+	{ 0x0600000D, U3CStartU3Ed__16_SetStateMachine_m97E54CA6FD83CC09F5909598F265B929F22E6CF5_AdjustorThunk },
+	{ 0x0600001C, U3CStartU3Ed__12_MoveNext_mB97D166CFCD184C4DB697FC216DE85D11907EE8F_AdjustorThunk },
+	{ 0x0600001D, U3CStartU3Ed__12_SetStateMachine_mCC92D569D266A6AE88B9B4457CF93F5B2D9630E8_AdjustorThunk },
+	{ 0x0600002C, U3CStartU3Ed__12_MoveNext_mC23BC93A8604FD6ACF3659470813FB6ED625D3CE_AdjustorThunk },
+	{ 0x0600002D, U3CStartU3Ed__12_SetStateMachine_m4A5263664BBCB6E67A1F38B0EAE2A86E8ED2486C_AdjustorThunk },
+	{ 0x0600003C, U3CStartU3Ed__12_MoveNext_mFDCE9E59D8637FBC9F7EADE9C3BA47B3EA9F364F_AdjustorThunk },
+	{ 0x0600003D, U3CStartU3Ed__12_SetStateMachine_mB4BF9FF52CE590C4EC24300372CD9E6A520B0976_AdjustorThunk },
+	{ 0x0600005F, U3CStartU3Ed__28_MoveNext_m83C6991FD9F59EF65CF760D9D34DD3DD09AF3DCC_AdjustorThunk },
+	{ 0x06000060, U3CStartU3Ed__28_SetStateMachine_m9C108B8BED369C71729AD9BB8C7F116A60E7604A_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[99] = 
+{
+	2133,
+	2133,
+	2133,
+	1737,
+	1772,
+	1772,
+	1772,
+	2133,
+	3933,
+	2133,
+	2133,
+	2133,
+	1772,
+	3933,
+	2133,
+	1277,
+	2133,
+	2133,
+	2133,
+	1737,
+	1772,
+	1772,
+	1772,
+	2133,
+	3933,
+	2133,
+	2133,
+	2133,
+	1772,
+	3933,
+	2133,
+	1277,
+	2133,
+	2133,
+	2133,
+	1737,
+	1772,
+	1772,
+	1772,
+	2133,
+	3933,
+	2133,
+	2133,
+	2133,
+	1772,
+	3933,
+	2133,
+	1277,
+	2133,
+	2133,
+	2133,
+	1737,
+	1772,
+	1772,
+	1772,
+	2133,
+	3933,
+	2133,
+	2133,
+	2133,
+	1772,
+	3933,
+	2133,
+	1277,
+	2133,
+	2133,
+	2133,
+	2133,
+	2133,
+	2133,
+	961,
+	367,
+	2131,
+	547,
+	1781,
+	367,
+	1781,
+	367,
+	1781,
+	1758,
+	2133,
+	2133,
+	2133,
+	2133,
+	2133,
+	2133,
+	1737,
+	1772,
+	1772,
+	1772,
+	2133,
+	3933,
+	2133,
+	2133,
+	2133,
+	1772,
+	3933,
+	2133,
+	1277,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	99,
+	s_methodPointers,
+	10,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
