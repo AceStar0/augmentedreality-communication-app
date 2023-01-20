@@ -15,6 +15,9 @@
 
 ## Face and Body Reconstruction 
 
+Body mesh
 ![téléchargement](https://user-images.githubusercontent.com/72024438/213676309-4629740a-35d8-4df7-a6bb-c668a96d259f.gif)
 
+3D model 
+![Capture d’écran 2023-01-20 115258](https://user-images.githubusercontent.com/72024438/213678474-66b60338-cf49-41da-9e48-b2a57a9a6d99.png)
 
